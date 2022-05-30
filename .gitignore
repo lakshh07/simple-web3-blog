@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.next
 # testing
 /coverage
-
+/cache
 # next.js
 /.next/
 /out/
@@ -27,7 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-
+.env
 # vercel
 .vercel
 
@@ -39,4 +39,3 @@ typechain
 
 #Hardhat files
 cache
-artifacts
